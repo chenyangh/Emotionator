@@ -4,7 +4,7 @@ Dataset: ISEAR, EmoSet, TEC, CBET
 Created by Chenyang Huang, Dec. 2018
 """
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '1'
+# os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 from data.data_loader import cbet_data, cbet_data_other
 from utils.split_k_fold import KFoldsSplitter
 from sklearn.metrics import classification_report
