@@ -29,4 +29,5 @@ python trainer_***.py -dataset=cbet/median/small
 
 
 # Overview of the model used in lstm_elmo_deepmoji
-[](img/overview.png)
+![overview](img/overview.png)
+
