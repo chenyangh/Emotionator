@@ -15,4 +15,14 @@ pip install -e .
 python scripts/download_weights.py
 ```
 
+3. download and untar this [file](https://drive.google.com/file/d/1_G_nJkWKdsr-LO-uKRcTeT0Wf_uxG0_l/view?usp=sharing) and then move the files under the same dir of the trainers.
+```bash
+tar -zxvf pretrained.tar.gz
+mv pretrained/* . 
+```
 For now it is only using CBET (subsets of CBET), I will make an update to support some of the other datasets **SOON**
+
+4. run inference (type 'end' to stop)
+```bash
+python trainer_***.py -dataset=cbet/median/small
+```
