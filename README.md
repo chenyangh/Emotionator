@@ -11,4 +11,4 @@ pip install -e .
 python scripts/download_weights.py
 ```
 
-For now it is only using CBET (subsets of CBET), I will make an update to support some of the other datasets *SOON*
+For now it is only using CBET (subsets of CBET), I will make an update to support some of the other datasets **SOON**
