@@ -26,3 +26,7 @@ For now it is only using CBET (subsets of CBET), I will make an update to suppor
 ```bash
 python trainer_***.py -dataset=cbet/median/small
 ```
+
+
+# Overview of the model used in lstm_elmo_deepmoji
+[](img/overview.png)
