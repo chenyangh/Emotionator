@@ -338,7 +338,7 @@ def interactive_inference(model_token=''):
 
         print(response)
 
-main()
+#  main() #used to train and save the pretrained model
 interactive_inference('elmo_')
 
 
