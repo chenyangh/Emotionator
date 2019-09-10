@@ -1,7 +1,6 @@
 allennlp==0.8.3
 ekphrasis==0.5.1
 emoji==0.4.5
-nltk
 numpy==1.16.3
 pandas==0.24.2
 torch==1.0.1
